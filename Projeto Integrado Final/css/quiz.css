@@ -1,0 +1,260 @@
+body {
+	background-color: #FFFAFA;
+}
+
+.box{
+    color: white;
+    position: absolute;
+    left: 40%;
+    background-color: #8B0000;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+fieldset{
+    border: 3px solid white;
+}
+
+
+legend{
+    border: 1px solid #8B0000;
+    padding: 10px;
+    text-align: center;
+    background-color: #8B0000;
+    border-radius: 8px;
+	font-family: Trebuchet MS;
+}
+
+.inputbox{
+    position: relative;
+	font-family: Trebuchet MS;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus~.labelinput,
+.inputUser:valid~.labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: #8B0000;
+}
+
+h1 {
+	text-align: center;
+}
+
+.question{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 20px;
+	font-family: Trebuchet MS;
+}
+
+.answers{
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 5px dotted black;
+    cursor: pointer;
+    padding: 10px;
+	font-family: Trebuchet MS;
+}
+
+.answers input{
+    cursor: pointer;
+}
+
+#submit{
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.question-box{
+    box-shadow: 5px 10px #888888;
+
+    margin-bottom: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+#quiz{
+	background: #8B0000;
+	padding: 10px;
+	border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fixo{
+	position: fixed;
+}
+
+.menu1{
+    background: #fff;
+    background: -webkit-linear-gradient(to right, #4682b4, #add8e6);
+    background: linear-gradient(to right, #4682b4, #add8e6);
+    text-align: center;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+nav{
+    position: relative;
+    margin: 0px auto 0;
+    width: 590px;
+    height: 50px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow:0 2px 3px 0 rgba(0,0,0,.1);
+    font-family: Arial;
+}
+
+nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #8B0000;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+a:nth-child(1){
+    width: 100px;
+
+}
+nav .star-conceito, a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+
+
+a:nth-child(2){
+    width: 110px;
+
+}
+nav .star-tipos, a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 110px;
+}
+
+a:nth-child(3){
+    width: 100px;
+
+}
+nav .star-exemplos, a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+}
+
+a:nth-child(4){
+    width: 160px;
+
+}
+nav .star-tabela, a:nth-child(4):hover~.animation{
+    width: 160px;
+    left: 310px;
+}
+
+a:nth-child(5){
+    width: 120px;
+
+}
+nav .star-formulario, a:nth-child(5):hover~.animation{
+    width: 120px;
+    left: 470px;
+}
+
+p {
+	font-family: Perpetua;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 30px;
+	color: #1C1C1C;
+}
+
+.pr1{
+    position: center;
+    right: 100px;
+	border: 2px;
+	border: solid;
+	border-color: #8B0000;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom: 90px;
+	margin-top: 50px;
+}
+
+.pr2{
+     position: center;
+    right: 100px;
+	border: 2px;
+	border: solid;
+	border-color: #8B0000;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom: 90px;
+	margin-top: 50px;
+}
+
+h2 {
+	position: center;
+	text-align: center;
+	background-color: #8B0000;
+	color: #000000;
+	font-family: Perpetua;
+	font-size: 50px;
+	letter-spacing: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+h6 {
+	position: center;
+	text-align: center;
+	background-color: #8B0000;
+	color: #000000;
+	font-family: Perpetua;
+	font-size: 40px;
+	letter-spacing: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
